@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>More Form Controls</title>
+</head>
+
+<body>
+  <!-- Checkboxes -->
+  <!-- The input element can be used to make checkboxes. -->
+  <h2>Choose your interests:</h2>
+  <input type="checkbox" id="tech">
+  <label for="tech">Tech</label><br>
+
+  <input type="checkbox" id="sports">
+  <label for="sports">Sports</label><br>
+
+  <input type="checkbox" id="books">
+  <label for="books">Books</label>
+  <!-- Radio Buttons -->
+  <!-- To make the radio buttons grouped, we must give them the same name, using the name attribute: -->
+  <h2>Title:</h2>
+  <input type="radio" name="title" id="mr">
+  <label for="mr">Mr</label><br>
+
+  <input type="radio" name="title" id="ms">
+  <label for="ms">Ms</label><br>
+
+  <input type="radio" name="title" id="mrs">
+  <label for="mrs">Mrs</label>
+  <!-- Textarea -->
+  <!-- To make a multi-line input field, use the <textarea> element -->
+  <textarea id="message">
+  </textarea>
+  <!-- Drop-down -->
+  <!-- A drop-down lets users select one of multiple options.
+  It can be created using the <select> element -->
+  <select>
+    <option>Red</option>
+    <option>Blue</option>
+    <option>Orange</option>
+  </select>
+  <!-- Buttons -->
+  <button>Send</button>
+  <!-- Buttons can also be created using the input element -->
+  <input type="button" value="Send">
+  <input type="reset" value="Reset">
+  <!-- Contact Form Example -->
+  <form>
+    <h2>Contact Us</h2>
+    <label for="type">Type: </label>
+    <select id="type">
+      <option>General</option>
+      <option>Payment Issue</option>
+      <option>Other</option>
+    </select><br><br>
+    <label for="name">Name: </label>
+    <input type="text" id="name"><br><br>
+    <label for="email">Email: </label>
+    <input type="email" id="email" placeholder="name@domain.com"><br><br>
+    <label for="message">Message: </label><br>
+    <textarea></textarea><br><br>
+    <input type="button" value="Send">
+  </form>
+</body>
+
+</html>
