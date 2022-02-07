@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia</title>
+</head>
+
+<body>
+  <!-- Audio -->
+  <!-- The audio element allows you to add an audio player to the page. -->
+  <audio src="audio.mp3">
+    Audio not supported
+  </audio>
+  <!-- Controls -->
+  <!-- The controls attribute displays the player controls -->
+  <audio src="audio.mp3" controls>
+    Audio not supported
+  </audio><br>
+  <!-- Looping -->
+  <!-- The loop attribute makes the player automatically start to play the track when it reaches the end. -->
+  <audio src="audio.mp3" controls loop>
+    Audio not supported
+  </audio><br>
+  <!-- Multiple Sources -->
+  <!-- Different browsers support different formats of audio. To maximize compatibility, the audio element allows to add different formats of the same audio track using the <source> element -->
+  <audio controls>
+    <source src="audio.mp3" type="audio/mpeg">
+    <source src="audio.ogg" type="audio/ogg">
+  </audio><br>
+  <!-- Video -->
+  <!-- As you can see, the video element supports the same syntax and the same attributes (controls, autoplay, loop), as the audio element. -->
+  <video controls>
+    <source src="video.mp4" type="video/mp4">
+    <source src="video.ogg" type="video/ogg">
+    Video is not supported by your browser
+  </video><br>
+  <!-- You can specify the height and width of the video player -->
+  <video controls width="480px" height="300px">
+    <source src="video.mp4" type="video/mp4">
+    <source src="video.ogg" type="video/ogg">
+    Video is not supported by your browser
+  </video><br>
+  <!-- Embed YouTube Videos -->
+  <!-- Another way to embed videos to a page is using the <iframe> element. -->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/o8kT5c_4PAc" frameborder="0"
+    allowfullscreen></iframe>
+</body>
+
+</html>
