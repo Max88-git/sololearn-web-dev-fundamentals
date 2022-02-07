@@ -1,0 +1,44 @@
+/* The declarations are then put inside curly braces { } */
+/* A rule can have multiple styles, for example */
+p {
+  color: red;
+  /* font-size: 42px; */
+}
+
+/* Multiple Selectors */
+h1,
+p {
+  color: red;
+}
+
+div,
+main {
+  background-color: lightgray;
+}
+
+/* Class Selectors */
+.intro {
+  color: white;
+  background-color: lightsalmon;
+}
+
+.demo {
+  color: green;
+}
+
+/* #id Selectors */
+#intro {
+  color: red;
+  background-color: yellow;
+}
+
+/* Target elements based on their location. */
+li strong {
+  color: purple;
+}
+
+/* Style Inheritance */
+.header {
+  color: blue;
+  font-size: 24px;
+}
