@@ -11,6 +11,7 @@ p {
   color: red;
 }
 
+/* Target multiple selectors at once, by separating the selectors with a comma */
 div,
 main {
   background-color: lightgray;
@@ -38,7 +39,7 @@ li strong {
 }
 
 /* Style Inheritance */
-.header {
+header {
   color: blue;
   font-size: 24px;
 }
