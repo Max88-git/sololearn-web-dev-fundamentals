@@ -1,0 +1,56 @@
+/* text-transform */
+/* For example: */
+.intro {
+  text-transform: uppercase;
+}
+.outro {
+  text-transform: capitalize;
+  text-align: right;
+}
+
+/* text-decoration */
+/* For example: */
+.intro {
+  text-decoration: underline;
+}
+.outro {
+  text-decoration: line-through;
+}
+.summary {
+  text-decoration: overline;
+}
+
+/* text-shadow */
+/* The text-shadow property allows you to set a shadow for the text. */
+/* It takes 4 values, like this: */
+/* h1 {
+  text-shadow: 3px 2px 3px red;
+} */
+/* To define multiple shadows, you need to separate them using commas */
+h1 {
+  text-shadow: 3px 2px 3px red, 2px 2px 1px blue;
+}
+
+/* Text Alignment */
+/* The text-align property is used to control how text is aligned within its container. */
+/* The supported values are: left, right, center, justify. */
+/* For example: */
+h1 {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+/* Line Height */
+/* The line-height property sets the height of each line of text. */
+/* For example, let's set our line height to be 1.8 times the height of the font: */
+.intro {
+  line-height: 1.8;
+}
+
+/* Letter & Word Spacing */
+/* The letter-spacing and word-spacing properties allow you to set the spacing between letters and words in your text. */
+/* For example: */
+.intro {
+  letter-spacing: 3px;
+  word-spacing: 3px;
+}
