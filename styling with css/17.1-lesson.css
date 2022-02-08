@@ -1,0 +1,60 @@
+/* Styling Text */
+/* Color property in action, which is used to change the color of the text. */
+.intro {
+  color: red;
+}
+
+/* Color Values */
+/* Hex values are written using the hashtag symbol (#) */
+.intro {
+  color: #47759b;
+}
+
+/* RGB defines the individual values for Red, Green, and Blue: */
+.intro {
+  color: rgb(71, 117, 155);
+}
+
+/* Font Size */
+/* The font-size property is used to set the size of the text. */
+/* It can take values using pixels (px) */
+.intro {
+  font-size: 32px;
+}
+
+.comment {
+  color: #331188;
+  font-size: 18px;
+}
+
+/* Font Family */
+/* You can change the font of the text using the font-family property. */
+.intro {
+  font-family: Arial;
+}
+
+/* Fonts */
+/* It's a common practice to define multiple fonts in the font-family property. */
+.intro {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* font-style */
+/* The font-style property is used to make text italic. */
+.intro {
+  font-style: italic;
+}
+
+#banner {
+  font-size: 18px;
+  font-style: italic;
+  color: black;
+}
+
+/* font-weight */
+/* The font-weight property is used to make the text bold. */
+.intro {
+  /* font-weight: bold; */
+  /* You can also define the font weight with a number from 100 (thin) to 900 (thick). 400 is the same as normal, and 700 is the same as bold. */
+  font-weight: 700;
+}
