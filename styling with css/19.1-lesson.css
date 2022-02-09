@@ -1,0 +1,54 @@
+/* Margin */
+/* The margin is the space around your box. */
+.margin {
+  margin: 5px 10px 5px 10px;
+  border: 3px solid black;
+}
+.box {
+  border: 3px solid red;
+}
+
+/* Padding */
+/* The padding is the area between the border and the content. */
+.padding {
+  margin: 5px 10px 5px 10px;
+  padding: 10px;
+  border: 3px solid black;
+}
+
+/* Box Size */
+/* Similar to using HTML attributes, the width and height can be given using CSS, with the width and height properties. */
+/* They can take both pixel and percentage values. */
+.box-size {
+  width: 50%;
+  border: 3px solid red;
+}
+
+/* Alternative Box Model */
+/* CSS provides an alternative box model where the given width is taken by the box and includes the padding and border. */
+/* Now, the paragraph box has the width 200px, irrespective of the padding and border widths. */
+.alt-box {
+  margin: 5px 10px 5px 10px;
+  padding: 4px 7px 4px 7px;
+  width: 200px;
+  box-sizing: border-box;
+  border: 3px solid black;
+}
+
+/* Box Models */
+/* The box-sizing property affects the sizes of the boxes. */
+.box1 {
+  border: 3px solid red;
+  padding: 10px 10px 10px 10px;
+  margin: 5px 5px 5px 5px;
+  width: 200px;
+  height: 100px;
+}
+.box2 {
+  border: 3px solid red;
+  padding: 10px 10px 10px 10px;
+  margin: 5px 5px 5px 5px;
+  width: 200px;
+  height: 100px;
+  box-sizing: border-box;
+}
