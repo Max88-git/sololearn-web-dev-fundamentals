@@ -1,0 +1,90 @@
+/* Border */
+/* The border property allows you to set the border style for the elements. */
+.box {
+  border: 3px solid red;
+}
+
+header {
+  border: 5px solid black;
+  background-image: url("https://picsum.photos/id/1015/1970/200");
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+/* Border Styles */
+/* The border style can take one of the following values: */
+/* dotted, dashed, solid, double, groove, ridge, inset, outset. */
+.box1 {
+  border: 3px groove green;
+}
+
+h1 {
+  border-bottom: 2px solid black;
+}
+
+/* Border Radius */
+/* The border-radius property allows you to round the corners of elements. */
+.box2 {
+  border: 3px solid green;
+  border-radius: 10px;
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 3px solid black;
+}
+
+/* Background */
+/* The background-color property sets the background color for an element. */
+.box4 {
+  background-color: lightblue;
+  height: 100px;
+  padding: 10px;
+}
+
+/* Background Image */
+/* You can also set an image as the background of an element, using the background-image property. */
+/* The image address has to be put in quotes and enclosed by the url() attribute. */
+.box5 {
+  background-image: url("https://picsum.photos/id/233/600/400");
+  height: 150px;
+  padding: 10px;
+}
+
+/* Background-repeat */
+/* The background-repeat property can control how the image is tiled (or repeated) in the box. */
+.box6 {
+  background-image: url("https://picsum.photos/200/300?grayscale");
+  background-repeat: no-repeat;
+  height: 150px;
+  padding: 10px;
+}
+
+/* Background-position */
+/* The background-position property sets the position in which the background image appears.
+It uses a coordinate system in which the top-left corner of the box is at position (0,0).
+As its value, it can take both pixel/percentage units and keywords (top, left, right, bottom, center). */
+.box7 {
+  background-image: url("https://picsum.photos/seed/picsum/200/300");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+/* Background-size */
+/* The background-size property allows you to define how the image should fit inside the box.
+It has two possible values:
+cover: The image will completely cover the box, while maintaining its aspect ratio.
+contain: The image will fit inside the box completely. */
+.box8 {
+  background-image: url("https://picsum.photos/id/1038/1970/200");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid black;
+}
