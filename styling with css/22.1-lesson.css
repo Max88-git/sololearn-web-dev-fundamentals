@@ -1,0 +1,32 @@
+/* Some basic styles to our table */
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 20px auto 0;
+}
+/* Some padding to the cells, to give the content some space to "breath" */
+td,
+th {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+/* We can assign a background color to our heading cells */
+th {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #d3d3d3;
+}
+/* CSS provides the nth-child() pseudo selector, which allows you to select specific rows and style them. */
+tr:nth-child(3) {
+  background-color: #b0d1e4;
+}
+/* The nth-child selector allows you to also define rules for the rows, instead of providing the number. */
+tr:nth-child(even) {
+  background-color: #b0d1e4;
+}
+tr:nth-child(odd) {
+  background-color: #6aabd1;
+}
