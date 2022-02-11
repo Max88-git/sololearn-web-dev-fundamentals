@@ -1,0 +1,64 @@
+/* List-style-type property */
+/* By default, unordered list items are marked with round bullets, while ordered lists are numbered. */
+/* The list-style-type property allows you to change the markers to circle, square, decimal, disc, lower-alpha, lower-roman, etc. */
+.type {
+  list-style-type: square;
+}
+
+/* List-style-position property */
+/* The list-style-position property specifies the position of the bullets: inside or outside. */
+.position {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+/* List-style-image property */
+/* The list-style-image property can be used to specify an image to be used as the list item marker. */
+.image {
+  list-style-image: url("bullet.jpg");
+}
+
+/* List-style property */
+/* The list-style property is a shorthand for setting list-style-type, list-style-image and list-style-position, all in one declaration: */
+.style {
+  list-style: square outside none;
+}
+
+/* Link properties */
+.link {
+  color: black;
+  background-color: #87cefa;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-left: 48px;
+}
+.link:hover {
+  border: 2px solid #0264a1;
+  background-color: #43b2f7;
+  /* text-decoration: underline; */
+}
+
+/* Styling links as buttons */
+/* It is common to style links as buttons and use them for navigation menus. */
+.nav li {
+  display: inline;
+}
+.nav li a {
+  outline: none;
+  text-decoration: none;
+  /* We set the display property to inline for list items to make them sit on the same line with the others, acting as inline elements. */
+  display: inline-block;
+  margin-left: 1%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 31%;
+  color: white;
+  background-color: #008000;
+  border-radius: 5px;
+}
+.nav a:hover {
+  background: #4f994f;
+}
