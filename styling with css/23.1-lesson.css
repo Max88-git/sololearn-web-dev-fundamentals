@@ -1,0 +1,43 @@
+/* Add styling to the text fields and labels by selecting them using their name */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  margin: 50px auto 0;
+  width: 25%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 30px;
+}
+/* We can target the input elements by their type using the following syntax */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  border: 1px solid #4caf50;
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+label {
+  font-weight: bold;
+  color: #4caf50;
+}
+.button-holder {
+  text-align: center;
+}
+/* Style our button  */
+input[type="button"] {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+  font-weight: bold;
+  color: white;
+}
+/* Just like link states, we can use the :hover pseudo selector to style the button, when it is hovered */
+input[type="button"]:hover {
+  background-color: #45a049;
+}
