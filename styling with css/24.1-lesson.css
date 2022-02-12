@@ -1,0 +1,48 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  background-color: lightseagreen;
+  border: 1px solid black;
+  padding: 5px;
+  /* display: inline; */
+}
+b {
+  background-color: yellow;
+  padding: 0 4px;
+  border: 1px dashed black;
+  /* The display property can be used to change how elements behave, making them behave as block or inline elements. */
+  /* display: block; */
+}
+
+li {
+  /* Changing the list items to act as inline elements. */
+  display: inline;
+  background-color: lightblue;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+section {
+  /* When we add display:flex; to the section, it will make the articles inside it act as flex items and arrange in columns. */
+  display: flex;
+}
+
+article {
+  background-color: lightcoral;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid black;
+  text-align: center;
+  font-style: italic;
+  /* By default, the flex items take equal space. */
+  flex: 1;
+}
+
+.special {
+  /* We can control what proportion of space flex items take up compared to the other items using the flex property. */
+  /* The last article will take 2 times as much space as the other ones. */
+  flex: 2;
+}
