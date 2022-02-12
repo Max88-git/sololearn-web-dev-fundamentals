@@ -1,0 +1,110 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin: 0;
+  padding: 0; */
+}
+
+h2 {
+  margin-left: 10px;
+}
+
+/* Float */
+/* The float property allows you to float an element inside a container. */
+/* we can float an image in a text, to make the text wrap on one side of it. */
+img {
+  float: left;
+  margin: 0 10px;
+}
+
+/* Make the class="box" element float on the right side. */
+.box {
+  background-color: lightsalmon;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  margin: 5px;
+  float: right;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+/* Position */
+/* By default, all elements have the position:static, which is the normal flow. */
+.static {
+  background-color: lightblue;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+/* With position: relative; the element is positioned relative to its normal position. */
+.relative {
+  background-color: lightseagreen;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  margin: 5px;
+  position: relative;
+  left: 30px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+/* An absolutely positioned element is removed from the normal flow of the page. */
+.absolute {
+  background-color: lightcoral;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  margin: 5px;
+  position: absolute;
+  top: 500px;
+  left: 300px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+/* Fixed position */
+/* Fixed positioning makes the element stick to a part of the visible area, which means it always stays in the same place even if the page is scrolled. */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background-color: orange;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+}
+
+/* z-index */
+/* When elements are positioned outside the normal flow, they can overlap other elements. */
+article {
+  background-color: lightgrey;
+  width: 150px;
+  height: 20px;
+  padding: 5px;
+  margin: 5px;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+.special {
+  background-color: orange;
+  width: 150px;
+  height: 100px;
+  vertical-align: middle;
+  line-height: 100px;
+  z-index: 1;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+}
