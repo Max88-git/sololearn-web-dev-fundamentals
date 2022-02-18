@@ -19,8 +19,10 @@ let btn = document.getElementById("myButton");
 
 // We can also create a function right when defining the event handler.
 // This way, we do not need to declare a separate function and assign it to the event. Instead, we define a function as the event handler using this syntax.
+// Modify the code to output the numbers 1 to 10 in a loop when the button is clicked.
 btn.onclick = function () {
-  console.log("Hello");
+  let score = 0;
+  for (let i = 0; i < 10; i++) console.log(++score);
 };
 
 // Handling Events
