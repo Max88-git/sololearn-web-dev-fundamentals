@@ -24,8 +24,8 @@ The goal of this course is to provide learners with the essential skill set need
 - HTML Basics
   - This section delves into the fundamentals of HTML and how it underpins the websites you use on a daily basis.
 - CSS Basics
-  - Colors, layout, and typefaces are examples of the terminology used to describe the appearance of Web sites. CSS allows users to customise the appearance of a website for multiple devices, such as large displays, tiny screens, and printers.
-- Javascript Basics
+  - Colors, layout, and typefaces are examples of the terminology used to describe the appearance of Web sites. CSS allows users to customize the appearance of a website for multiple devices, such as large displays, tiny screens, and printers.
+- JavaScript Basics
   - This section will explain why JavaScript is so good for web development. Learn the fundamentals of the language as well as some of its most used web development applications.
 
 ### Links
@@ -34,7 +34,7 @@ The goal of this course is to provide learners with the essential skill set need
 
 ## My process
 
-- It took me 19 days to finish the course. It broke down what I needed to know about web programming into small, "bite-sized" bits, making it simple to keep up with my studies. I spent 1-2 hours per day going through each section, making notes and completing taks and quizzes along the way.
+- It took me 19 days to finish the course. It broke down what I needed to know about web programming into small, "bite-sized" bits, making it simple to keep up with my studies. I spent 1-2 hours per day going through each section, making notes and completing tasks and quizzes along the way.
 
 ### Built with
 
